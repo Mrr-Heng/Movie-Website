@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(44, 6, 140);
+}
+.banner-bar img{
+    width: 80%;
+    height: 370px;
+    margin-left: 10%;
+}
+.banner-movie img{
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+
+}
+.menu-bar{
+    background-color: #130865be;
+    width: 80%;
+    margin: auto;
+    margin-top: 3px;
+    text-align: center;
+}
+.menu-bar ul{
+    list-style: none;
+    display: inline-block;
+}
+.menu-bar ul li{
+    display: inline;
+    margin: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #9c9fa0;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0px 20px;
+}
+.title{
+    background-color: rgba(26, 144, 165, 0.825);
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.title h1{
+    color: #fff;
+    line-height: 90px;
+}
+.menu-bar ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0px 20px;
+}
+.movie-video-background{
+    background-color: #cbc4c4e4;
+    width: 280px;
+    height: 350px;
+    margin-left: 1%;
+    margin-top: 0px;
+    border-radius: 10px;
+    opacity: .9;
+}
+.video-content iframe{
+    width: 95%;
+    height: 335px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 10px;
+}
+.movie-content{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 9%;
+}
